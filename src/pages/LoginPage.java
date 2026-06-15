@@ -30,5 +30,6 @@ public class LoginPage {
         driver.findElement(password).sendKeys(pass);
         driver.findElement(loginBtn).click();
         System.out.println("Login attempted with credentials: " + user + ", " + pass);
+        // Git Branching Practice
     }
 }
